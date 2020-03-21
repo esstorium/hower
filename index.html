@@ -1,0 +1,77 @@
+<html>
+	<head>
+	
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>
+		</title>
+		
+		<link rel="stylesheet" href="style.css" >
+	</head>
+	
+	<body>
+		
+		<div id="main">
+		
+			<div id="title">
+				<p id="form-name">فرم ثبت سفارش</p>
+			</div>
+		
+			<div id="fields">
+				
+				<form id="form1">
+					<input type="text" id="orderno" name="orderno" readonly>
+					<label for="orderno" class="labels">شماره سفارش</label>
+
+					<br>
+					
+					<input type="text" id="customername" name="customername" autofocus >
+					<label for="customername" class="labels">نام مشتری</label>
+					
+					<br>
+					
+					<input type="text" id="customercode" name="customercode" readonly>
+					<label for="customercode" class="labels">کد مشتری</label>
+					
+					<br>
+					
+					<input type="url" id="productlink" name="productlink">
+					<label for="productlink" class="labels">لینک کالا</label>
+					
+					<br>
+					
+					<label  id="labelforphoto">تصویر کالا</label>
+					<br>
+					<input type="file" id="productphoto" name="productphoto" multiple>
+					
+					<br>
+					
+					<input type="url" id="productlink" name="productlink">
+					<label for="productlink" class="labels">لینک کالا</label>
+					
+					<br>
+					
+					<select>
+					
+					<option value="trendyol.com">Trendyol</option>
+					<option value="nike">Nike</option>
+					<option value="adidas">Adidas</option>
+					<option value="gratis">Gratis</option>
+					<option value="hepsiburada">Hepsiburada</option>
+					</select>
+					
+					<label for="sellersite" class="labels">سایت</label>
+
+				</form>
+				
+			</div>
+			
+		</div>
+	
+
+	<script src="script.js">
+	</script>
+	
+	</body>
+
+</html>
